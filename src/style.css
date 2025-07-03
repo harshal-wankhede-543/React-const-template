@@ -1,0 +1,320 @@
+.stick{
+    background-color: white;
+    position: sticky;
+    top:0;
+}
+.navigation nav ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 20px;
+}
+.navigation nav ul li a{
+    text-decoration: none;
+}
+.heading h1{
+    margin-top: 20%;
+    font-size: 70px;
+}
+.header{
+    color: white;
+    background-image: url(images/img1.webp);
+    width: 100%;
+    height: 100vh;
+}
+.main1 h1{
+    font-weight: 500;
+
+}
+.course{
+    display: flex;
+}
+.course h1{
+    font-size: 40px;
+    font-weight: 700;
+    border-right: 3px solid rgb(1, 1, 64);
+    padding-right: 30px;
+}
+.coursetext p{
+    padding-left: 10px;
+    font-size: large;
+    margin-right: 20%;
+}
+.courses h3{
+    border-bottom: 2px solid;
+    margin-top: 13px;
+    padding: 10px;
+
+}
+.courses{
+    margin: auto;
+    width: 24%;
+    color: white;
+}
+.courses img{
+    width: 100%;
+}
+.achivement-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.achivement-2{
+    display: flex;
+    justify-content: space-between;
+}
+.mod{
+    border-top: 1px solid rgb(42, 42, 56);
+    border-bottom: 1px solid rgb(42, 42, 56);
+}
+.mains{
+    display: flex;
+}
+.achiv-img img{
+    width: 100%;
+}
+.achivement-3{
+    margin-top: 30px;
+    margin-left: 10%;
+}
+.achivement-3 p{
+    font-size: 25px;
+    padding: 1%;
+    margin-top: 20px;
+}
+.lib-1 h1{
+    text-decoration: underline;
+    margin-bottom: 20px;
+    
+}
+.lib-1 h4{
+    margin-bottom: 50px;
+}
+.lib-main{
+    margin: auto;
+}
+.library-img img{
+    width: 100%;
+    margin-top: 10px;
+}
+.lib-title{
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+.lib-title h4{
+    font-size: large;
+}
+.news{
+    display: flex;
+    background-image: url(images/News.webp);
+    height: max-content;
+    padding-bottom: 20px;
+}
+.news-content{
+    width: 50%;
+    
+}
+.news-content h1{
+    border-bottom: 3px solid blue;
+}
+.news-input{
+    width: 40%;
+    display: flex;
+}
+.news-input input{
+    margin: auto;
+    width: 100%;
+    height: 60px;
+}
+.news-input button{
+    margin: auto;
+    width: 180px;
+    height: 60px;
+}
+.footer-1{
+    background-image: url(images/img2.webp);
+}
+.footer-2{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding-top: 30px;
+    border-bottom: 1px solid rgb(249, 249, 249);
+    margin-bottom: 20px;
+    
+}
+.foot nav ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.contact-info{
+    width: 25%;
+}
+.foot h2{
+    margin-left: 25px;
+}
+.adjust{
+    margin-left: 25px;
+}
+.images{
+    margin-left: 9%;
+}
+.images img{
+    color: white;
+    background-color: white;
+    margin: 10px;
+    padding: 2px;
+}
+.nav-foot{
+    margin-right: 9%;
+}
+.nav-foot nav ul li{
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 10px;
+}
+.footer-3-adjust{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .achivement-1{
+        display: block;
+        justify-content: space-evenly;
+    }
+    .mains{
+        display: block;
+    }
+    .navigation{
+        display: none;
+    }
+    .courses{
+        margin: auto;
+        width: 20%;
+        color: white;
+    }
+    .achiv-img img{
+        width: 50%;
+        margin-bottom: 40px;
+    }
+    .news{
+        display: block;
+        background-image: url(images/News.webp);
+        height: 100%;
+        padding-bottom: 20px;
+    }
+    .news-content{
+        width: 100%;
+        
+    }
+    .news-content h1{
+        border-bottom: 3px solid blue;
+    }
+    .news-input{
+        width: 80%;
+        margin: auto;
+        
+    }
+    .news-input input{
+        margin: auto;
+        width: 100%;
+        height: 40px;
+    }
+    .news-input button{
+        margin: auto;
+        width: 180px;
+        height: 40px;
+    }
+    
+
+
+}
+
+@media screen and (max-width: 767px){
+
+    .achivement-1{
+        display: block;
+        justify-content: space-evenly;
+    }
+    .mains{
+        display: block;
+    }
+    .navigation{
+        display: none;
+    }
+    .courses{
+        margin: auto;
+        width: 100%;
+        color: white;
+    }
+    .heading h1{
+        font-size: 40px;
+    }
+    .course{
+        display: block;
+    }
+    .course h1{
+        font-size: 40px;
+        font-weight: 700;
+        border-right: 0px solid rgb(1, 1, 64);
+        
+        border-bottom: 3px solid rgb(1, 1, 64);
+    }
+    .achiv-img img{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .achivement-3{
+        margin-top: 30px;
+        margin-left: 0%;
+    }
+    .achivement-3 img{
+        width: 30px;
+    }
+    .achivement-3 p{
+        font-size: 15px;
+    }
+    .news{
+        display: block;
+        background-image: url(images/News.webp);
+        height: max-content;
+    }
+    .news-content{
+        width: 100%;
+        
+    }
+    .news-content h1{
+        border-bottom: 3px solid blue;
+    }
+    .news-input{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    .news-input input{
+        margin: auto;
+        width: 80%;
+        height: 40px;
+    }
+    .news-input button{
+        margin: auto;
+        width: 80%;
+        height: 40px;
+        text-align: center;
+        font-size: 10px;
+    }
+    .contact-info{
+        width: 100%;
+    }
+    .footer-2{
+        display: block;
+    }
+    .footer-3-adjust{
+        display: block;
+        justify-content: space-between;
+    }
+
+}
